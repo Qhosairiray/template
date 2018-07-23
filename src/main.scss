@@ -1,0 +1,29 @@
+@import "~bootstrap/scss/bootstrap";
+$imgwith : 50px;
+$imgheigth : 50px;
+$lidewith: 50;
+$slideheigth: 160;
+$colorr : #F0F8FF;
+
+.contaiwarna{
+  padding-top: 15px;
+  background-color: $colorr;
+}
+.nvbar{
+  background-color: $colorr;
+}
+.imgs{
+  width: $imgwith;
+  height: $imgwith;
+}
+
+img{
+  width: $lidewith;
+  height: $slideheigth;
+}
+
+body{
+  background-image: url("/img/pemandangan.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
